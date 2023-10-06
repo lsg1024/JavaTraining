@@ -2,15 +2,15 @@ package com.example.javatraining.service;
 
 import com.example.javatraining.domain.Member;
 import com.example.javatraining.repository.MemberRepository;
-import com.example.javatraining.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
