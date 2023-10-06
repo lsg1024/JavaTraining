@@ -3,7 +3,6 @@ package com.example.javatraining.service;
 import com.example.javatraining.domain.Member;
 import com.example.javatraining.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.Transactional;
 
 

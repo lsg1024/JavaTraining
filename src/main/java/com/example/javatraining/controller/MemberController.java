@@ -1,7 +1,7 @@
 package com.example.javatraining.controller;
 
-import com.example.javatraining.domain.Member;
 import com.example.javatraining.service.MemberService;
+import com.example.javatraining.domain.Member;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
